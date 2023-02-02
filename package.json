@@ -1,0 +1,17 @@
+{
+  "name": "robotmq",
+  "version": "1.0.0",
+  "description": "RabbitMQ",
+  "main": "publisher.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consume": "node consumer.js",
+    "consume1":"node consumer1.js"
+  },
+  "author": "Ankur Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "nodemon": "^2.0.20"
+  }
+}
